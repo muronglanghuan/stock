@@ -98,7 +98,7 @@ def save_to_file(data, filename, filetype='csv'):
                     f"标题：{item['title']}\n链接：{item['link']}\n时间：{item['time']}\n内容：{item['content']}\n{'=' * 50}\n")
 
 
-def main(stock_code):
+def b(stock_code):
     # 获取新闻列表
     news_list = get_news_links(stock_code)
     print(f"共发现 {len(news_list)} 条新闻")
@@ -125,7 +125,7 @@ def main(stock_code):
 
 if __name__ == "__main__":
     stock_code = "900941"  # 修改为需要的股票代码
-    main(stock_code)
+    b(stock_code)
 
 
 
